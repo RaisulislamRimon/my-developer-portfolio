@@ -42,7 +42,7 @@ const Navbar = () => {
               {menuItems}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">
+          <a className=" btn btn-ghost normal-case text-xs md:text-xl">
             MD RAISUL ISLAM RIMON
           </a>
         </div>
