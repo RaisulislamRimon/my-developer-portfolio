@@ -12,6 +12,14 @@ const Banner = () => {
             <h2 className="py-6 text-sm sm:text-base md:text-xl font-bold">
               FRONT END WEB DEVELOPER
             </h2>
+            <div className="flex gap-3 mt-5">
+              <div>
+                <a className="btn rounded-3xl px-8">Download Resume</a>
+              </div>
+              <div>
+                <a className="btn rounded-3xl px-8">Contact</a>
+              </div>
+            </div>
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <div className="card-body">
