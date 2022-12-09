@@ -1,6 +1,19 @@
 import React from "react";
 
 const Banner = () => {
+  const downloadResume = () => {
+    fetch("MD._RAISUL ISLAM RIMON.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "MD._RAISUL ISLAM RIMON.pdf";
+        alink.click();
+      });
+    });
+  };
   return (
     <div>
       <div className="hero min-h-screen bg-base-200">
@@ -13,8 +26,10 @@ const Banner = () => {
               FRONT END WEB DEVELOPER
             </h2>
             <div className="flex gap-3 mt-5  lg:ml-2">
-              <div>
-                <a className="btn rounded-3xl px-8">Download Resume</a>
+              <div onClick={downloadResume}>
+                <button className="btn rounded-3xl px-8">
+                  Download Resume
+                </button>
               </div>
               <div>
                 <a className="btn rounded-3xl px-8">Contact</a>
