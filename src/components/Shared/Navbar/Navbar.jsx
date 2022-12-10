@@ -12,6 +12,9 @@ const Navbar = () => {
       <li>
         <a>Contact</a>
       </li>
+      <div className="hidden sm:block">
+        <a className="btn">Resume</a>
+      </div>
     </>
   );
   return (
@@ -46,11 +49,8 @@ const Navbar = () => {
             MD RAISUL ISLAM RIMON
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
-        </div>
-        <div className="navbar-end">
-          <a className="btn">Download Resume</a>
         </div>
       </div>
     </div>
