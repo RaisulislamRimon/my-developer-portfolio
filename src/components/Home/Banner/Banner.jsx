@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Banner = () => {
   const downloadResume = () => {
@@ -20,20 +20,25 @@ const Banner = () => {
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
-            <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold lg:ml-2 mt-3 md:mt-5">
+            <h1 className="text-xl text-white sm:text-3xl md:text-4xl lg:text-5xl font-bold lg:ml-2 mt-3 md:mt-5">
               MD RAISUL ISLAM RIMON
             </h1>
-            <h2 className="py-6 text-sm sm:text-base md:text-xl  lg:ml-2 font-bold">
+            <h2 className="py-6 text-white text-sm sm:text-base md:text-xl  lg:ml-2 font-bold">
               FRONT END WEB DEVELOPER
             </h2>
             <div className="flex gap-3 mt-5 lg:ml-2 flex-col md:flex-row">
               <div onClick={downloadResume}>
-                <button className="btn rounded-3xl px-8 w-full">
+                <button className="btn btn-warning rounded-3xl px-8 w-full">
                   Download Resume
                 </button>
               </div>
               <div>
-                <a className="btn rounded-3xl px-8 w-full">Contact</a>
+                <Link
+                  to="/contact"
+                  className="btn btn-info rounded-3xl px-8 w-full"
+                >
+                  Contact
+                </Link>
               </div>
             </div>
           </div>

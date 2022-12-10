@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link>Portfolio</Link>
       </li>
       <li>
-        <Link>Contact</Link>
+        <Link to="/contact">Contact</Link>
       </li>
       <li>
         <Link to="/resume" className="btn">
@@ -48,9 +48,12 @@ const Navbar = () => {
               {menuItems}
             </ul>
           </div>
-          <a className=" btn btn-ghost normal-case text-xs md:text-xl">
+          <Link
+            to="/"
+            className=" btn btn-ghost normal-case text-xs md:text-xl"
+          >
             MD RAISUL ISLAM RIMON
-          </a>
+          </Link>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
