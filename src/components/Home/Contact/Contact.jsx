@@ -1,20 +1,46 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const Contact = () => {
+  const form = useRef();
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    const form = e.target;
-    const name = form.name.value;
-    const email = form.email.value;
-    const phone = form.phone.value;
-    const message = form.message.value;
+    // const form = e.target;
+    // const name = form.name.value;
+    // const email = form.email.value;
+    // const phone = form.phone.value;
+    // const message = form.message.value;
+    // console.log(name, email, phone, message);
 
-    console.log(name, email, phone, message);
+    emailjs
+      .sendForm(
+        "service_wxt64ds",
+        "template_e95qeis",
+        form.current,
+        "0Ay6Hmyk5xEeB8rCh"
+      )
+      .then(
+        (result) => {
+          // console.log(result.text);
+          Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Your message has been sent",
+            showConfirmButton: false,
+            timer: 2000,
+          });
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
   return (
     <div>
       <h1 className="text-center text-4xl my-20">Contact</h1>
-      <form onSubmit={handleFormSubmit}>
+      <form ref={form} onSubmit={handleFormSubmit}>
         <div>
           <input
             type="text"
