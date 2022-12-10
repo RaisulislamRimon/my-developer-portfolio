@@ -12,7 +12,7 @@ const Navbar = () => {
       <li>
         <a>Contact</a>
       </li>
-      <div className="hidden sm:block">
+      <div>
         <a className="btn">Resume</a>
       </div>
     </>
