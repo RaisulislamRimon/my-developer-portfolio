@@ -22,51 +22,30 @@
   },
   {
     "_id": 4,
-    "name": "Project 4",
-    "description": "This is project 4",
-    "img": "https://picsum.photos/200/300",
-    "link": "https://www.google.com"
+    "name": "The Daily Quiz",
+    "description": "This is a quiz application that allows users to take a quiz on a daily basis. The quiz is a multiple choice quiz with many questions. The quiz is about general knowledge of Front end Web Development.",
+    "img": "https://bit.ly/3FikjlX",
+    "link": "https://calm-sherbet-4ab516.netlify.app/"
   },
   {
     "_id": 5,
-    "name": "Project 5",
-    "description": "This is project 5",
-    "img": "https://picsum.photos/200/300",
-    "link": "https://www.google.com"
+    "name": "Fitness Club Ultra",
+    "description": "This is a fitness club for everyone who loves their body & keep fit always.",
+    "img": "https://bit.ly/3UKQfoP",
+    "link": "https://fitness-club-ultra.netlify.app/"
   },
   {
     "_id": 6,
-    "name": "Project 6",
-    "description": "This is project 6",
-    "img": "https://picsum.photos/200/300",
-    "link": "https://www.google.com"
+    "name": "Typing Speed Error Checker",
+    "description": "Free Typing Tests. Improve your typing Speed. The faster you type, the faster you communicate with others. With our free typing speed test, you can check your typing scores in a flash!",
+    "img": "https://bit.ly/3Y9lJYx",
+    "link": "https://typingspeederrorcheck.netlify.app/"
   },
   {
     "_id": 7,
-    "name": "Project 7",
-    "description": "This is project 7",
-    "img": "https://picsum.photos/200/300",
-    "link": "https://www.google.com"
-  },
-  {
-    "_id": 8,
-    "name": "Project 8",
-    "description": "This is project 8",
-    "img": "https://picsum.photos/200/300",
-    "link": "https://www.google.com"
-  },
-  {
-    "_id": 9,
-    "name": "Project 9",
-    "description": "This is project 9",
-    "img": "https://picsum.photos/200/300",
-    "link": "https://www.google.com"
-  },
-  {
-    "_id": 10,
-    "name": "Project 10",
-    "description": "This is project 10",
-    "img": "https://picsum.photos/200/300",
-    "link": "https://www.google.com"
+    "name": "News Website API",
+    "description": "This is a news website based on API. You'll see some page link or navigation menu at the top of the page. You can see any kinds of news from this website.",
+    "img": "https://bit.ly/3FHuL7Y",
+    "link": "https://newswebsiteapi.netlify.app/"
   }
 ]

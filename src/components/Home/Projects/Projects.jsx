@@ -9,7 +9,7 @@ const Projects = () => {
       .then((data) => setProjects(data));
   }, []);
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen my-20">
       <h1 className="text-4xl text-center text-white my-10">
         My Recent Completed Project
       </h1>
