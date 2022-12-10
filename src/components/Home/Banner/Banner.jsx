@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import Typewriter from "typewriter-effect";
+import bgwave from "../../../assets/bg-wave.svg";
 
 const Banner = () => {
   const downloadResume = () => {
@@ -18,24 +20,55 @@ const Banner = () => {
   return (
     <div>
       <div className="hero min-h-screen bg-base-200">
+        <img
+          src={bgwave}
+          class="col-start-1 row-start-1 self-center opacity-25"
+          alt="Tailwind Play"
+        />
+
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
             <h1 className="text-xl text-white sm:text-3xl md:text-4xl lg:text-5xl font-bold lg:ml-2 mt-3 md:mt-5">
               MD RAISUL ISLAM RIMON
+              {/* <Typewriter
+                options={{
+                  strings: [" MD RAISUL ISLAM RIMON"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              /> */}
             </h1>
             <h2 className="py-6 text-white text-sm sm:text-base md:text-xl  lg:ml-2 font-bold">
-              FRONT END WEB DEVELOPER
+              <Typewriter
+                options={{
+                  strings: [
+                    "FRONT END WEB DEVELOPER",
+                    "React Js Developer",
+                    "Javascript Developer",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  delay: 40,
+                  deleteSpeed: 10,
+                }}
+              />
             </h2>
             <div className="flex gap-3 mt-5 lg:ml-2 flex-col md:flex-row">
               <div onClick={downloadResume}>
-                <button className="btn btn-warning rounded-3xl px-8 w-full">
+                <button
+                  className="btn btn-warning rounded-3xl px-8 w-full
+                transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105  duration-300
+                "
+                >
                   Download Resume
                 </button>
               </div>
               <div>
                 <Link
                   to="/contact"
-                  className="btn btn-info rounded-3xl px-8 w-full"
+                  className="btn btn-info rounded-3xl px-8 w-full
+                  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105  duration-300
+                  "
                 >
                   Contact
                 </Link>
