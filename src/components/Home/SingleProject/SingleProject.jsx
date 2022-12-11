@@ -20,7 +20,8 @@ const SingleProject = () => {
     },
   });
 
-  const { name, description, img, link, previews } = singleProject;
+  const { name, description, img, link, previews, clientCode, serverCode } =
+    singleProject;
 
   const desc = description?.split(".");
   const result = desc?.length;
@@ -52,12 +53,34 @@ const SingleProject = () => {
         </div>
         <div className="card-body lg:w-2/3 mt-5 mx-auto">
           <h2 className="text-white">
-            <p className="text-xl bg-slate-700 text-center md:p-2 md: mb-3 rounded-lg">
+            <p className="text-xl bg-slate-700 text-center md:p-2 md: mb-10 rounded-lg">
               Project Description
             </p>{" "}
             {/* {description} */}
             {desc && desc.map((details) => <p>⦿ {details}</p>)}
           </h2>
+          <p className="text-white font-bold border p-2 sm:p-3 rounded-md mt-5">
+            Client Side Code:{" "}
+            <a
+              href={clientCode}
+              target="_blank"
+              className="underline text-white p-2 rounded-lg"
+            >
+              {clientCode}
+            </a>
+          </p>
+          {serverCode && (
+            <p className="text-white font-bold border p-2 sm:p-3 rounded-md">
+              Server Side Code:{" "}
+              <a
+                href={serverCode}
+                target="_blank"
+                className="underline text-white p-2 rounded-lg"
+              >
+                {/* {serverCode ? serverCode : "No server available"} */}
+              </a>
+            </p>
+          )}
           <p className="text-white font-bold border p-2 sm:p-3 rounded-md">
             Live Website:{" "}
             <a

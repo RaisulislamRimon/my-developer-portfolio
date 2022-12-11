@@ -1,4 +1,5 @@
 import React from "react";
+import { PhotoProvider, PhotoView } from "react-photo-view";
 import { Link } from "react-router-dom";
 
 const Project = ({ project }) => {
@@ -7,11 +8,15 @@ const Project = ({ project }) => {
     <div>
       <div className="card w-96 bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
-          <img
-            src={img}
-            alt={name}
-            className="rounded-xl hover:md:scale-125 hover:md:translate-x-4 hover:md:skew-y-3 delay-150 duration-300"
-          />
+          <PhotoProvider>
+            <PhotoView src={img}>
+              <img
+                src={img}
+                alt={name}
+                className="rounded-lg md:w-full lg:text-center  hover:md:scale-125 hover:md:translate-x-4 hover:md:skew-y-3 delay-150 duration-300"
+              />
+            </PhotoView>
+          </PhotoProvider>
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">{name}</h2>
