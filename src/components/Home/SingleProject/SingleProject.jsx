@@ -22,6 +22,9 @@ const SingleProject = () => {
 
   const { name, description, img, link, previews } = singleProject;
 
+  const desc = description?.split(".");
+  const result = desc?.length;
+
   if (isLoading) return "Loading...";
 
   if (error) {
@@ -52,7 +55,8 @@ const SingleProject = () => {
             <p className="text-xl bg-slate-700 text-center md:p-2 md: mb-3 rounded-lg">
               Project Description
             </p>{" "}
-            {description}
+            {/* {description} */}
+            {desc && desc.map((details) => <p>⦿ {details}</p>)}
           </h2>
           <p className="text-white font-bold border p-2 sm:p-3 rounded-md">
             Live Website:{" "}
