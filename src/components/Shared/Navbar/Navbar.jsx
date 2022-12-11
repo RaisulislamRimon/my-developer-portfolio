@@ -5,7 +5,7 @@ const Navbar = () => {
   const menuItems = (
     <>
       <li>
-        <Link>About Me</Link>
+        <Link to="/about-me">About Me</Link>
       </li>
       <li tabIndex={0}>
         <Link>Portfolio</Link>
