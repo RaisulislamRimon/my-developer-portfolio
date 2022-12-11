@@ -67,7 +67,7 @@ const Banner = () => {
                 <Link
                   to="/contact"
                   className="btn btn-info rounded-3xl px-8 w-full
-                  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105  duration-300
+                  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105  duration-300 
                   "
                 >
                   Contact
@@ -81,7 +81,7 @@ const Banner = () => {
                 <div className="rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                   <img
                     src="https://i.ibb.co/6n23vsp/rimon-photopea-edit-removebg-preview-2.png"
-                    className="max-w-sm rounded-lg shadow-current"
+                    className="max-w-sm rounded-lg shadow-current rotate-[-10deg]"
                   />
                 </div>
               </div>
