@@ -14,7 +14,9 @@ const SingleProject = () => {
   } = useQuery({
     queryKey: ["project", id],
     queryFn: async () => {
-      const res = await fetch(`http://localhost:5000/projects/${id}`);
+      const res = await fetch(
+        `https://my-developer-portfolio-server.vercel.app/projects/${id}`
+      );
       const data = await res.json();
       return data;
     },
@@ -69,7 +71,7 @@ const SingleProject = () => {
               {clientCode}
             </a>
           </p>
-          {serverCode && (
+          {serverCode && serverCode.length > 3 && (
             <p className="text-white font-bold border p-2 sm:p-3 rounded-md">
               Server Side Code:{" "}
               <a
@@ -77,7 +79,7 @@ const SingleProject = () => {
                 target="_blank"
                 className="underline text-white p-2 rounded-lg"
               >
-                {/* {serverCode ? serverCode : "No server available"} */}
+                {serverCode ? serverCode : "No server available"}
               </a>
             </p>
           )}
