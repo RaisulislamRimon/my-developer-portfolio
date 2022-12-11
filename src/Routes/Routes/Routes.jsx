@@ -5,12 +5,14 @@ import Home from "../../components/Home/Home/Home";
 import Projects from "../../components/Home/Projects/Projects";
 import Resume from "../../components/Home/Resume/Resume";
 import SingleProject from "../../components/Home/SingleProject/SingleProject";
+import NotFound from "../../components/Shared/NotFound/NotFound";
 import Main from "../../layout/Main";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
+    errorElement: <NotFound />,
     children: [
       {
         path: "/",
@@ -31,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
       },
     ],
   },
