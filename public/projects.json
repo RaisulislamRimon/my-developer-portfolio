@@ -4,6 +4,20 @@
     "name": "Buy Sell Club",
     "description": "Best places to buy and sell almost every kinds of books. This is the best place for buying and selling second hands books. We are great with communication and have the best interest for both sellers and buyers.",
     "img": "https://bit.ly/3iQu8zY",
+    "previews": [
+      {
+        "img": "https://bit.ly/3iQu8zY"
+      },
+      {
+        "img": "https://bit.ly/3hewIzr"
+      },
+      {
+        "img": "https://bit.ly/3Ycsqcs"
+      },
+      {
+        "img": "https://bit.ly/3BqCmW9"
+      }
+    ],
     "link": "https://used-products-resale-b170c.web.app/"
   },
   {
@@ -11,6 +25,20 @@
     "name": "Life Care",
     "description": "This website is for the service-review-service. It is a simple web application that allows users to add services & submit reviews for services. The client is built using React, React Router Dom, firebase, tailwindcss, daisy ui, react icon, react loader spinner, react photo view & sweet alert2.",
     "img": "https://bit.ly/3PhqOdp",
+    "previews": [
+      {
+        "img": "https://bit.ly/3PhqOdp"
+      },
+      {
+        "img": "https://bit.ly/3WaEmtd"
+      },
+      {
+        "img": "https://bit.ly/3Pj2acm"
+      },
+      {
+        "img": "https://bit.ly/3hmzaUp"
+      }
+    ],
     "link": "https://service-review-6227a.web.app/"
   },
   {
@@ -18,6 +46,20 @@
     "name": "Complete Your Code",
     "description": "This is a simple code learning project. It's a simple web app that allows you to learn how to code. You can use it by going to the website and clicking on the 'All Courses' button. You can choose the programming language you want to learn. You can choose the course you want to start. You can buy the course and download your invoice.You can see the course details. You can login/register with your email and password or social media like google or github. Dark mode/Light mode(This feature is not available yet. It will be available soon.)",
     "img": "https://bit.ly/3iTVS73",
+    "previews": [
+      {
+        "img": "https://bit.ly/3iTVS73"
+      },
+      {
+        "img": "https://bit.ly/3Fm46w0"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/THtmQf-RQI-wWuUU9iuS7w.png"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/s-UZNSo-QkKdoyn228NoNg.png"
+      }
+    ],
     "link": "https://complete-your-code.web.app/"
   },
   {
@@ -25,6 +67,20 @@
     "name": "The Daily Quiz",
     "description": "This is a quiz application that allows users to take a quiz on a daily basis. The quiz is a multiple choice quiz with many questions. The quiz is about general knowledge of Front end Web Development.",
     "img": "https://bit.ly/3FikjlX",
+    "previews": [
+      {
+        "img": "https://bit.ly/3FikjlX"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/BBcdnz-iQDSl07DJXKsAuw.png"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/QO4mVwfySd2nsnW0PjbtuA.png"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/ye1fvKoLTtmD10oRXkFT4w.png"
+      }
+    ],
     "link": "https://calm-sherbet-4ab516.netlify.app/"
   },
   {
@@ -32,6 +88,20 @@
     "name": "Fitness Club Ultra",
     "description": "This is a fitness club for everyone who loves their body & keep fit always.",
     "img": "https://bit.ly/3UKQfoP",
+    "previews": [
+      {
+        "img": "https://bit.ly/3UKQfoP"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/wyEMr698TnyBnmRvHC8wnA.png"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/Piw_iMGwTtybDf89ShirIg.png"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/N_WI7d90TiGjv5GTPd6MOA.png"
+      }
+    ],
     "link": "https://fitness-club-ultra.netlify.app/"
   },
   {
@@ -39,6 +109,20 @@
     "name": "Typing Speed Error Checker",
     "description": "Free Typing Tests. Improve your typing Speed. The faster you type, the faster you communicate with others. With our free typing speed test, you can check your typing scores in a flash!",
     "img": "https://bit.ly/3Y9lJYx",
+    "previews": [
+      {
+        "img": "https://bit.ly/3Y9lJYx"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/_4wqmRzHQQijid9tTYV9tg.png"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/8jkl25pjSayxay1ib_Nv-A.png"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/7NcgiiQ0TVSuwXkkWXDZhA.png"
+      }
+    ],
     "link": "https://typingspeederrorcheck.netlify.app/"
   },
   {
@@ -46,6 +130,20 @@
     "name": "News Website API",
     "description": "This is a news website based on API. You'll see some page link or navigation menu at the top of the page. You can see any kinds of news from this website.",
     "img": "https://bit.ly/3FHuL7Y",
+    "previews": [
+      {
+        "img": "https://bit.ly/3FHuL7Y"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/m_fFfrhqRF6rrcNqniSuKA.png"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/fmWBJ8lpTHaFJg-gfSrtHQ.png"
+      },
+      {
+        "img": "https://img001.prntscr.com/file/img001/bSD-ibFiR0uj_VvXgQrf3g.png"
+      }
+    ],
     "link": "https://newswebsiteapi.netlify.app/"
   }
 ]

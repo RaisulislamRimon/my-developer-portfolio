@@ -4,6 +4,7 @@ import Contact from "../../components/Home/Contact/Contact";
 import Home from "../../components/Home/Home/Home";
 import Projects from "../../components/Home/Projects/Projects";
 import Resume from "../../components/Home/Resume/Resume";
+import SingleProject from "../../components/Home/SingleProject/SingleProject";
 import Main from "../../layout/Main";
 
 const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Projects />,
+      },
+      {
+        path: "/project/:id",
+        element: <SingleProject />,
       },
       {
         path: "/resume",

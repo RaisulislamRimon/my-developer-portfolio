@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Project = ({ project }) => {
-  const { name, description, img, link } = project;
+  const { _id, name, description, img, link } = project;
   return (
     <div>
       <div className="card w-96 bg-base-100 shadow-xl">
@@ -26,9 +27,11 @@ const Project = ({ project }) => {
             </a>
           </p>
           <div className="card-actions mt-5">
-            <button className="btn btn-primary transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
-              See Details
-            </button>
+            <Link to={`/project/${_id}`}>
+              <button className="btn btn-primary transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+                See Details
+              </button>
+            </Link>
           </div>
         </div>
       </div>

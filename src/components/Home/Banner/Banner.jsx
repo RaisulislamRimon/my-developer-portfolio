@@ -22,7 +22,7 @@ const Banner = () => {
       <div className="hero min-h-screen bg-base-200">
         <img
           src={bgwave}
-          class="col-start-1 row-start-1 self-center opacity-25"
+          className="col-start-1 row-start-1 self-center opacity-25"
           alt="Tailwind Play"
         />
 
