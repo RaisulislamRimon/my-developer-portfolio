@@ -46,20 +46,20 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-white"
             >
               {menuItems}
             </ul>
           </div>
           <Link
             to="/"
-            className=" btn btn-ghost normal-case text-xs md:text-xl"
+            className=" btn btn-ghost normal-case text-xs md:text-xl text-white"
           >
             MD RAISUL ISLAM RIMON
           </Link>
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{menuItems}</ul>
+          <ul className="menu menu-horizontal px-1 text-white">{menuItems}</ul>
         </div>
       </div>
     </div>
