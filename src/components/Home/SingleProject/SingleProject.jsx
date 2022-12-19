@@ -2,6 +2,8 @@ import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import { Link, useParams } from "react-router-dom";
+import Loading from "../../Shared/Loading/Loading";
+import LoadingError from "../../Shared/Loading/LoadingError";
 
 const SingleProject = () => {
   const { id } = useParams();
@@ -28,10 +30,10 @@ const SingleProject = () => {
   const desc = description?.split(".");
   const result = desc?.length;
 
-  if (isLoading) return "Loading...";
+  if (isLoading) return <Loading />;
 
   if (error) {
-    return <div>"An error has occurred: " + error.message</div>;
+    return <LoadingError />;
   }
 
   return (
