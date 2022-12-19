@@ -14,7 +14,9 @@ const Resume = () => {
   return (
     <div className="my-20 md:w-2/4 mx-auto text-center">
       <div>
-        <h1 className="text-4xl text-center mb-5">Resume</h1>
+        <h1 className="text-4xl text-center mb-5 text-white underline">
+          Resume
+        </h1>
       </div>
       {
         <FileViewer
