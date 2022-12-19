@@ -19,8 +19,8 @@ const Project = ({ project }) => {
           </PhotoProvider>
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">{name}</h2>
-          <p title={description}>
+          <h2 className="card-title text-white">{name}</h2>
+          <p title={description} className="text-white">
             Description: {""}
             {description && description.length > 30
               ? description.substring(0, 30) + "..."
