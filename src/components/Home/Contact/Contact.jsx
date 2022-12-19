@@ -39,40 +39,44 @@ const Contact = () => {
   };
   return (
     <div>
-      <h1 className="text-center text-4xl my-20">Contact</h1>
-      <form ref={form} onSubmit={handleFormSubmit}>
-        <div>
+      <h1 className="text-center text-4xl my-20 text-white underline">
+        Contact
+      </h1>
+      <div className="flex justify-center items-center">
+        <form ref={form} onSubmit={handleFormSubmit}>
+          <div>
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              className="input input-bordered w-full max-w-xs m-3 hover:border-blue-500"
+            />
+            <input
+              type="text"
+              name="email"
+              placeholder="Enter your email"
+              className="input input-bordered w-full max-w-xs m-3 hover:border-blue-500"
+            />
+            <input
+              type="text"
+              name="phone"
+              placeholder="Enter your phone"
+              className="input input-bordered w-full max-w-xs m-3 hover:border-blue-500"
+            />
+          </div>
+          <textarea
+            name="message"
+            className="textarea textarea-bordered w-3/4 md:w-2/4 m-3 hover:border-blue-500"
+            placeholder="Write your message"
+          ></textarea>
+          <br />
           <input
-            type="text"
-            name="name"
-            placeholder="Enter your name"
-            className="input input-bordered w-full max-w-xs m-3"
+            type="submit"
+            className="btn btn-primary m-3 btn-wide"
+            value="Submit"
           />
-          <input
-            type="text"
-            name="email"
-            placeholder="Enter your email"
-            className="input input-bordered w-full max-w-xs m-3"
-          />
-          <input
-            type="text"
-            name="phone"
-            placeholder="Enter your phone"
-            className="input input-bordered w-full max-w-xs m-3"
-          />
-        </div>
-        <textarea
-          name="message"
-          className="textarea textarea-bordered w-3/4 md:w-2/4 m-3"
-          placeholder="Write your message"
-        ></textarea>
-        <br />
-        <input
-          type="submit"
-          className="btn btn-primary m-3 btn-wide"
-          value="Submit"
-        />
-      </form>
+        </form>
+      </div>
     </div>
   );
 };
