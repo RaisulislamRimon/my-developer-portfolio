@@ -3,8 +3,10 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div>
-      <h1 className="text-center text-4xl my-20">About Me</h1>
-      <div className="text-white md:px-10 md:text-xl text-justify">
+      <h1 className="text-center text-4xl my-20 text-white underline">
+        About Me
+      </h1>
+      <div className="text-white m-4 md:px-10 md:text-xl text-justify">
         <p className="mb-3">
           I am MD. Raisul Islam Rimon. I am a front-end web developer. I have
           been working on and developing some projects.
