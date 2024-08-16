@@ -14,7 +14,7 @@ const Footer = () => {
             Providing reliable service since 2022 */}
           </p>
           <p className="text-white">
-            Copyright &copy; 2022 - All rights reserved
+            Copyright &copy; 2024 - All rights reserved
           </p>
         </div>
         <div>
