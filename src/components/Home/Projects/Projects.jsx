@@ -30,7 +30,7 @@ const Projects = () => {
   return (
     <div className="min-h-screen my-20">
       <h1 className="text-2xl md:text-3xl lg:text-4xl text-center text-white my-10">
-        My Recent Completed Project
+        My Recent Projects
       </h1>
       <div className="grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
