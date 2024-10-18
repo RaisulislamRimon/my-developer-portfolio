@@ -17,9 +17,9 @@ const Navbar = () => {
         <Link to="/contact">Contact</Link>
       </li>
       <li>
-        <Link to="/resume" target="_blank" className="btn">
+        <a href="/resume" target="_blank" className="btn">
           Resume
-        </Link>
+        </a>
       </li>
     </>
   );
