@@ -3,6 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import bgwave from "../../../assets/bg-wave.svg";
 import { ImLinkedin2 } from "react-icons/im";
+import { FaMedium } from "react-icons/fa";
 
 const Banner = () => {
   const downloadResume = () => {
@@ -95,6 +96,8 @@ const Banner = () => {
                   <a
                     href="https://twitter.com/rimon_raisul"
                     className="text-white m-2"
+                    // this link will automatically open in a new tab
+                    target="_blank"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -109,6 +112,7 @@ const Banner = () => {
                   <a
                     href="https://www.youtube.com/channel/UCubND4KfOLYSs6KM-roTFnA"
                     className="text-white m-2"
+                    target="_blank"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -123,6 +127,7 @@ const Banner = () => {
                   <a
                     href="https://www.facebook.com/raisul.rimon"
                     className="text-white m-2"
+                    target="_blank"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -137,8 +142,27 @@ const Banner = () => {
                   <a
                     href="https://www.linkedin.com/in/md-raisul-islam-rimon/"
                     className="text-white m-2"
+                    target="_blank"
                   >
                     <ImLinkedin2 className="text-2xl" />
+                  </a>
+                  <a
+                    href="https://medium.com/@rimonppip0"
+                    className="text-white m-2"
+                    target="_blank"
+                  >
+                    <FaMedium className="text-2xl" />
+                  </a>
+                  <a
+                    href="https://bdit.community/u/md_rimon"
+                    className="text-white m-2"
+                    target="_blank"
+                  >
+                    <img
+                      src="https://bdit-community-public.s3.us-west-002.backblazeb2.com/original/2X/d/d608f7b8c551bd8b5294873181b1751c77140015.png"
+                      alt="bdit community logo"
+                      className="h-7"
+                    />
                   </a>
                 </div>
               </div>
