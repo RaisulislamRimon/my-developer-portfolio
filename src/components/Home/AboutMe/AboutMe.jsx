@@ -15,8 +15,8 @@ const AboutMe = () => {
           Currently, I am studying for BSc in CSE at the National University of
           Bangladesh. I am HTML5, CSS3, Bootstrap, React Bootstrap, Tailwind
           CSS, Daisy UI, Javascript, React JS, Express JS, Node JS, MongoDB,
-          Sweet Alert2, React Router, Tanstack Query, n cel, n cel. All projects
-          are hosted on my GitHub account.
+          Sweet Alert2, React Router, Tanstack Query. All projects are
+          live/hosted on my GitHub account.
         </p>
         <p className="mb-3">
           In my spare time, I like to read books, watch movies, water the plants
@@ -24,7 +24,7 @@ const AboutMe = () => {
           different developers apart from sleeping.
         </p>
         <p className="mb-10 mt-5">
-          Thanks so much for reading about me. Have a good day.
+          Thank you so much for reading about me. Have a good day.
         </p>
       </div>
     </div>
