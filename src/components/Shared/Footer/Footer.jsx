@@ -1,6 +1,7 @@
 import React from "react";
 import footer from "../../../assets/coding.png";
 import { ImLinkedin2 } from "react-icons/im";
+import { FaMedium } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -64,6 +65,24 @@ const Footer = () => {
               className="text-white"
             >
               <ImLinkedin2 className="text-2xl" />
+            </a>
+            <a
+              href="https://medium.com/@rimonppip0"
+              className="text-white"
+              target="_blank"
+            >
+              <FaMedium className="text-2xl" />
+            </a>
+            <a
+              href="https://bdit.community/u/md_rimon"
+              className="text-white"
+              target="_blank"
+            >
+              <img
+                src="https://bdit-community-public.s3.us-west-002.backblazeb2.com/original/2X/d/d608f7b8c551bd8b5294873181b1751c77140015.png"
+                alt="bdit community logo"
+                className="h-7"
+              />
             </a>
           </div>
         </div>
